@@ -1,10 +1,10 @@
 # Brew@42 installer into sgoinfre
-#
+
 # Delete and reinstall Homebrew from Github repo
 rm -rf $HOME/.brew $HOME/sgoinfre/.brew
 mkdir $HOME/sgoinfre/.brew
 ln -s $HOME/sgoinfre/.brew $HOME/.brew
-git clone --depth=1 https://github.com/Homebrew/brew $HOME/.brew
+git clone --depth=1 https://github.com/Homebrew/brew $HOME/sgoinfre/.brew
 
 # Create Extra Symlinks for Minikube and Docker
 rm -rf $HOME/.minikube $HOME/sgoinfre/.minikube $HOME/.docker $HOME/sgoinfre/.docker $HOME/sgoinfre/.kube
