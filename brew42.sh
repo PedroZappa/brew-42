@@ -1,5 +1,5 @@
-#!/bin/bash
-
+# Brew@42 installer into sgoinfre
+#
 # Delete and reinstall Homebrew from Github repo
 rm -rf $HOME/.brew $HOME/sgoinfre/.brew
 mkdir $HOME/sgoinfre/.brew
