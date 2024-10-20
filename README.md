@@ -2,6 +2,6 @@
 
 Install Homebrew on you 42 workstation's sgoinfre by simply running a script.
 
-'''sh
+```sh
 ./brew42.sh
-'''
+```
